@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#img{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./img/img1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: white;
+    margin-top: -14%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    width: 7%;
+    height: 5vh;
+    margin-left: 47%;
+    margin-top: 9%;
+
+}
+@media(max-width:767px){
+    h2{
+        color: white;
+        margin-top: -53%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        width: 32%;
+        height: 6vh;
+        margin-left: 35%;
+        margin-top: 33%;
+    
+    }
+}
+@media(min-width:768px) and (max-width:1023px){
+    h2{
+        color: white;
+        margin-top: -34%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        width: 20%;
+        height: 5vh;
+        margin-left: 40%;
+        margin-top: 22%;
+    
+    }
+}
+@media(min-width:1024px){
+    h2{
+        color: white;
+        margin-top: -14%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 300%;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        width: 7%;
+        height: 5vh;
+        margin-left: 47%;
+        margin-top: 9%;
+    
+    }
+}
+#card1{
+    margin-top: 7%;
+}
+#image{
+    height: 50vh;
+    border-radius: 13px;
+}
+#main{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 9%;
+    background-color: #11bb67;
+    border: none;
+}
+.p1{ 
+    margin-top: -13%;
+    margin-left: 30%;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p{
+    color: white;
+    margin-left: 28%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 18%;
+    height: 7vh;
+    margin-left: 60%;
+    margin-top: -1%;
+    border-radius: 10px;
+    border: none;
+}
+@media screen and (max-width:767px){
+    #main{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        border: 1px solid black;
+        margin-top: 9%;
+        background-color: #11bb67;
+        border: none;
+    }
+    .p1{ 
+        margin-top: -56%;
+        margin-left: 3%;
+        font-size: 130%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    p{
+        color: white;
+        margin-left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        margin-top: 2%;
+    }
+    input{
+        width: 100%;
+        height: 9vh;
+        margin-left: 1%;
+        margin-top: 35%;
+        border-radius: 10px;
+        border: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    #main{
+        width: 100%;
+        height: 22vh;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        border: 1px solid black;
+        margin-top: 9%;
+        background-color: #11bb67;
+        border: none;
+    }
+    .p1{ 
+        margin-top: -45%;
+        margin-left: 3%;
+        font-size: 150%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    p{
+        color: white;
+        margin-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input{
+        width: 45%;
+        height: 7vh;
+        margin-left: 52%;
+        margin-top: -1%;
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+
